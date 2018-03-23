@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+  
+
+<root>
+  
+
+    <customer>
+     <details> 
+      <ID>101</ID> 
+      <NAME>Sai Kiran</NAME> 
+     </details>
+     <lastyrdata>
+      <BALANCECF>50,000</BALANCECF>
+     </lastyrdata>
+     <currentyrdata>
+      <DEPOSIT>100,000</DEPOSIT>
+      <WITHDRAWAL>20,000</WITHDRAWAL>
+     </currentyrdata>
+     
+    </customer>
+  
+ 
+
+    <customer>
+     <details> 
+      <ID>102</ID> 
+      <NAME>Anjali Sharma</NAME> 
+     </details>
+     <lastyrdata>
+      <BALANCECF>40,000</BALANCECF>
+     </lastyrdata>
+     <currentyrdata>
+      <DEPOSIT>50,000</DEPOSIT>
+      <WITHDRAWAL>20,000</WITHDRAWAL>
+     </currentyrdata>
+     
+    </customer>
+
+    <customer>
+     <details> 
+      <ID>103</ID> 
+      <NAME>John Smith</NAME> 
+     </details>
+     <lastyrdata>
+      <BALANCECF>30,000</BALANCECF>
+     </lastyrdata>
+     <currentyrdata>
+      <DEPOSIT>85,000</DEPOSIT>
+      <WITHDRAWAL>15,000</WITHDRAWAL>
+     </currentyrdata>
+     
+    </customer>
+
+
+    <customer>
+     <details> 
+      <ID>104</ID> 
+      <NAME>George D'Souza</NAME> 
+     </details>
+     <lastyrdata>
+      <BALANCECF>50,000</BALANCECF>
+     </lastyrdata>
+     <currentyrdata>
+      <DEPOSIT>90,000</DEPOSIT>
+      <WITHDRAWAL>8,000</WITHDRAWAL>
+     </currentyrdata>
+     
+    </customer>
+
+
+    <customer>
+     <details> 
+      <ID>105</ID> 
+      <NAME>Andy Murray</NAME> 
+     </details>
+     <lastyrdata>
+      <BALANCECF>80,000</BALANCECF>
+     </lastyrdata>
+     <currentyrdata>
+      <DEPOSIT>44,000</DEPOSIT>
+      <WITHDRAWAL>16,000</WITHDRAWAL>
+     </currentyrdata>
+     
+    </customer>
+  
+
+</root>
+  
