@@ -1,0 +1,41 @@
+%@page import="java.sql.*" %>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<% 
+        String id=request.getParameter("id");
+        
+        
+        
+            
+        
+            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+            Connection conn=DriverManager.getConnection("jdbc:odbc:HTMLAccess");
+            Statement st=conn.createStatement();
+           ResultSet rs=st.executeQuery("select Name from CustomerData where id='"+id+"'");
+            
+               if(id.isEmpty())
+               {
+                  out.println("<font color=red>Please fill the field</font>");
+                  
+                }
+               else if(rs.next())
+               {
+                   
+                       %>
+                       <tr><td><b>ID</b></td><td><<input type="text" value=<%=rs.getString("Name")%></td></tr>
+                       <%
+               }
+              
+                
+               
+               else
+               {
+                   out.println("Sorry!!No ticket booked");
+               }
+               %>
+              st.close();
+           
+        
+        
+%>
